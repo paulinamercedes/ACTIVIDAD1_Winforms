@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace EJERCICIO_7
 {
@@ -37,5 +38,9 @@ namespace EJERCICIO_7
 
         }
 
+        private void listaElementos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+         
+        }
     }
 }

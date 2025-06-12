@@ -9,3 +9,14 @@ C:\Users\Laptop\source\repos\PRUEBAS.PRACTICA1\ACTIVIDAD1unidad2\EJERCICIO 3.0\o
 C:\Users\Laptop\source\repos\PRUEBAS.PRACTICA1\ACTIVIDAD1unidad2\EJERCICIO 3.0\obj\Debug\EJERCICIO 3.0.exe
 C:\Users\Laptop\source\repos\PRUEBAS.PRACTICA1\ACTIVIDAD1unidad2\EJERCICIO 3.0\obj\Debug\EJERCICIO 3.0.pdb
 C:\Users\Laptop\source\repos\PRUEBAS.PRACTICA1\ACTIVIDAD1unidad2\EJERCICIO 3.0\obj\Debug\EJERCICIO 3.0.exe.config
+C:\Users\Laptop\Desktop\ACTIVIDAD1Winforms\EJERCICIO 3.0\bin\Debug\EJERCICIO 3.0.exe.config
+C:\Users\Laptop\Desktop\ACTIVIDAD1Winforms\EJERCICIO 3.0\bin\Debug\EJERCICIO 3.0.exe
+C:\Users\Laptop\Desktop\ACTIVIDAD1Winforms\EJERCICIO 3.0\bin\Debug\EJERCICIO 3.0.pdb
+C:\Users\Laptop\Desktop\ACTIVIDAD1Winforms\EJERCICIO 3.0\obj\Debug\EJERCICIO 3.0.csproj.AssemblyReference.cache
+C:\Users\Laptop\Desktop\ACTIVIDAD1Winforms\EJERCICIO 3.0\obj\Debug\EJERCICIO 3.0.exe.config
+C:\Users\Laptop\Desktop\ACTIVIDAD1Winforms\EJERCICIO 3.0\obj\Debug\EJERCICIO_3._0.Form1.resources
+C:\Users\Laptop\Desktop\ACTIVIDAD1Winforms\EJERCICIO 3.0\obj\Debug\EJERCICIO_3._0.Properties.Resources.resources
+C:\Users\Laptop\Desktop\ACTIVIDAD1Winforms\EJERCICIO 3.0\obj\Debug\EJERCICIO 3.0.csproj.GenerateResource.cache
+C:\Users\Laptop\Desktop\ACTIVIDAD1Winforms\EJERCICIO 3.0\obj\Debug\EJERCICIO 3.0.csproj.CoreCompileInputs.cache
+C:\Users\Laptop\Desktop\ACTIVIDAD1Winforms\EJERCICIO 3.0\obj\Debug\EJERCICIO 3.0.exe
+C:\Users\Laptop\Desktop\ACTIVIDAD1Winforms\EJERCICIO 3.0\obj\Debug\EJERCICIO 3.0.pdb

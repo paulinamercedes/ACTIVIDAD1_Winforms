@@ -28,49 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.botonvalidar = new System.Windows.Forms.Button();
-            this.LabelResultado = new System.Windows.Forms.Label();
+            this.BotonValidar = new System.Windows.Forms.Button();
             this.TextoEntrada = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // botonvalidar
+            // BotonValidar
             // 
-            this.botonvalidar.BackColor = System.Drawing.Color.Plum;
-            this.botonvalidar.Location = new System.Drawing.Point(60, 130);
-            this.botonvalidar.Name = "botonvalidar";
-            this.botonvalidar.Size = new System.Drawing.Size(194, 54);
-            this.botonvalidar.TabIndex = 0;
-            this.botonvalidar.Text = "Validar Numero";
-            this.botonvalidar.UseVisualStyleBackColor = false;
-            this.botonvalidar.Click += new System.EventHandler(this.botonvalidar_Click);
-            // 
-            // LabelResultado
-            // 
-            this.LabelResultado.BackColor = System.Drawing.Color.Thistle;
-            this.LabelResultado.Location = new System.Drawing.Point(414, 50);
-            this.LabelResultado.Name = "LabelResultado";
-            this.LabelResultado.Size = new System.Drawing.Size(200, 100);
-            this.LabelResultado.TabIndex = 1;
+            this.BotonValidar.BackColor = System.Drawing.Color.Plum;
+            this.BotonValidar.Font = new System.Drawing.Font("Baskerville Old Face", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotonValidar.Location = new System.Drawing.Point(228, 177);
+            this.BotonValidar.Name = "BotonValidar";
+            this.BotonValidar.Size = new System.Drawing.Size(211, 78);
+            this.BotonValidar.TabIndex = 0;
+            this.BotonValidar.Text = "Validar Numero ";
+            this.BotonValidar.UseVisualStyleBackColor = false;
+            this.BotonValidar.Click += new System.EventHandler(this.BotonValidar_Click);
             // 
             // TextoEntrada
             // 
             this.TextoEntrada.BackColor = System.Drawing.Color.Thistle;
-            this.TextoEntrada.Location = new System.Drawing.Point(60, 66);
+            this.TextoEntrada.Font = new System.Drawing.Font("Baskerville Old Face", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextoEntrada.Location = new System.Drawing.Point(228, 118);
             this.TextoEntrada.Name = "TextoEntrada";
-            this.TextoEntrada.Size = new System.Drawing.Size(200, 31);
-            this.TextoEntrada.TabIndex = 2;
+            this.TextoEntrada.Size = new System.Drawing.Size(211, 50);
+            this.TextoEntrada.TabIndex = 1;
+            this.TextoEntrada.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LavenderBlush;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(685, 422);
             this.Controls.Add(this.TextoEntrada);
-            this.Controls.Add(this.LabelResultado);
-            this.Controls.Add(this.botonvalidar);
+            this.Controls.Add(this.BotonValidar);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -78,8 +72,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button botonvalidar;
-        private System.Windows.Forms.Label LabelResultado;
+        private System.Windows.Forms.Button BotonValidar;
         private System.Windows.Forms.TextBox TextoEntrada;
     }
 }

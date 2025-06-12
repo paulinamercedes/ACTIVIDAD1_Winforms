@@ -39,7 +39,7 @@
             this.textoElemento.Font = new System.Drawing.Font("Baskerville Old Face", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textoElemento.Location = new System.Drawing.Point(35, 50);
             this.textoElemento.Name = "textoElemento";
-            this.textoElemento.Size = new System.Drawing.Size(200, 44);
+            this.textoElemento.Size = new System.Drawing.Size(214, 44);
             this.textoElemento.TabIndex = 0;
             // 
             // botonAgregar
@@ -48,7 +48,7 @@
             this.botonAgregar.Font = new System.Drawing.Font("Baskerville Old Face", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.botonAgregar.Location = new System.Drawing.Point(35, 129);
             this.botonAgregar.Name = "botonAgregar";
-            this.botonAgregar.Size = new System.Drawing.Size(200, 44);
+            this.botonAgregar.Size = new System.Drawing.Size(214, 59);
             this.botonAgregar.TabIndex = 1;
             this.botonAgregar.Text = "Agregar ";
             this.botonAgregar.UseVisualStyleBackColor = false;
@@ -57,13 +57,14 @@
             // listaElementos
             // 
             this.listaElementos.BackColor = System.Drawing.Color.Thistle;
-            this.listaElementos.Font = new System.Drawing.Font("Baskerville Old Face", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listaElementos.Font = new System.Drawing.Font("Baskerville Old Face", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listaElementos.FormattingEnabled = true;
             this.listaElementos.ItemHeight = 31;
-            this.listaElementos.Location = new System.Drawing.Point(491, 50);
+            this.listaElementos.Location = new System.Drawing.Point(308, 50);
             this.listaElementos.Name = "listaElementos";
-            this.listaElementos.Size = new System.Drawing.Size(265, 128);
-            this.listaElementos.TabIndex = 2;
+            this.listaElementos.Size = new System.Drawing.Size(408, 128);
+            this.listaElementos.TabIndex = 3;
+            this.listaElementos.SelectedIndexChanged += new System.EventHandler(this.listaElementos_SelectedIndexChanged);
             // 
             // Form1
             // 

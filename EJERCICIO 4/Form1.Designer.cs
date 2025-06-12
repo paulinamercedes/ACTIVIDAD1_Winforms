@@ -59,9 +59,9 @@
             // 
             this.botoncalcular.BackColor = System.Drawing.Color.Plum;
             this.botoncalcular.Font = new System.Drawing.Font("Baskerville Old Face", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botoncalcular.Location = new System.Drawing.Point(547, 123);
+            this.botoncalcular.Location = new System.Drawing.Point(530, 123);
             this.botoncalcular.Name = "botoncalcular";
-            this.botoncalcular.Size = new System.Drawing.Size(149, 56);
+            this.botoncalcular.Size = new System.Drawing.Size(185, 56);
             this.botoncalcular.TabIndex = 2;
             this.botoncalcular.Text = "Calcular";
             this.botoncalcular.UseVisualStyleBackColor = false;

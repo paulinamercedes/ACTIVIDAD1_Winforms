@@ -17,17 +17,27 @@ namespace EJERCICIO_9
             InitializeComponent();
         }
 
-        private void botonvalidar_Click(object sender, EventArgs e)
+        private void BotonValidar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Es un número válido: ");
+
+            double numero;
+
+            if (double.TryParse(TextoEntrada.Text, out numero))
+            {
+                MessageBox.Show("Es un número válido: " + numero);
+            }
+            else
+            {
+                MessageBox.Show("No es un número valido.");
+
+            }
         }
-    else
-    {
-        MessageBox.Show("No es un número.");
-    }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
 
 
 }
-        
-    
-

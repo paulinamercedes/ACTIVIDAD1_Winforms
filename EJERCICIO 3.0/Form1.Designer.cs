@@ -53,6 +53,7 @@
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(394, 196);
             this.lblResultado.TabIndex = 1;
+            this.lblResultado.Click += new System.EventHandler(this.lblResultado_Click);
             // 
             // txtentrada
             // 
@@ -75,6 +76,7 @@
             this.Controls.Add(this.btnMostrar);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

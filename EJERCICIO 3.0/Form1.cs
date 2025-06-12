@@ -26,5 +26,15 @@ namespace EJERCICIO_3._0
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblResultado_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
